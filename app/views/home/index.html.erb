@@ -1,0 +1,12 @@
+<div>
+  <% if I18n.backend.exists?(:en, 'foo.bar') %>
+    Translation for "foo.bar" has been created. You can change it <%= link_to "here", autochthon_path %>
+   </br>
+    Or you can delete it by clicking <%= link_to 'here', translations_path(key: 'foo.bar'), method: :delete %>
+  <% else %>
+    This is a missing translation for "foo.bar" - "<%= t('foo.bar') %>". <- right click on it to add translation.
+   </br>
+   After updating it try refreshing the browser.
+  <% end %>
+
+</div>
