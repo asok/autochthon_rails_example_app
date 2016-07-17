@@ -1,4 +1,4 @@
 require 'i18n/backend/active_record'
 
-I18n.backend = Autochthon.backend = Autochthon::ActiveRecord::Backend.new
+I18n.backend = Autochthon.backend = Autochthon::Backend::ActiveRecord.new
 Autochthon.mount_point = 'autochthon'
