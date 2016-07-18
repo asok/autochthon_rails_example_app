@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/asok/autochthon.git
-  revision: b02532803bee0048650ce7403bf0987e2d81ba51
+  revision: f27770f9806efa31e2d601b3fcd5a2c1973f74ba
   specs:
     autochthon (0.1.0)
       i18n
