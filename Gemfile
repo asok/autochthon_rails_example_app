@@ -7,7 +7,7 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'jquery-rails'
 
-gem 'autochthon', github: 'asok/autochthon'
+gem 'autochthon'
 
 gem 'i18n-active_record', :require => 'i18n/active_record'
 
@@ -18,4 +18,3 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
 end
-
