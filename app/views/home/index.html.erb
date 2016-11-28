@@ -1,6 +1,6 @@
 <div>
   <% if I18n.backend.exists?(:en, 'foo.bar') %>
-    Translation for "foo.bar" has been created. You can change it <%= link_to "here", autochthon_path %>
+    Translation for "foo.bar" exists. It's value is "<%= t('foo.bar') %>". You can change it <%= link_to "here", autochthon_path %>
    </br>
     Or you can delete it by clicking <%= link_to 'here', translations_path(key: 'foo.bar'), method: :delete %>
   <% else %>
